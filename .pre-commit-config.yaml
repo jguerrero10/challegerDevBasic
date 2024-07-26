@@ -35,6 +35,5 @@ repos:
           - djangorestframework
           - psycopg[binary]
           - python-dotenv
-          - djangorestframework-simplejwt[crypto]
-          - djangorestframework-stubs
+          - motor
         args: [ "--config-file=mypy.ini" ]
